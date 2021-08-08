@@ -1,0 +1,21 @@
+{
+  "name": "myfirstrestapi",
+  "version": "1.0.0",
+  "description": "My First Rest API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "author": "Dennisse Cannobbio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "underscore": "^1.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
